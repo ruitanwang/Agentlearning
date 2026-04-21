@@ -1,0 +1,22 @@
+git config --global user.name "ruitanwang"
+git config --global user.email "1005938189@qq.com"
+git init
+git remote add origin https://github.com/ruitanwang/Agentlearning.git (随切随换)
+git remote -v
+git clone https://github.com/ruitanwang/Agentlearning.git
+git pull origin main
+git add .
+git commit -m "message"
+git push -u origin main
+git fetch origin main
+git merge origin/main
+
+git branch
+git branch -r
+git branch -a
+
+git branch dev
+git checkout main
+git checkout -b dev
+
+git status
